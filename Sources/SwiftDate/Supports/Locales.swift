@@ -30,9 +30,10 @@ public enum Locales: String, LocaleConvertible {
     case english = "en"
     case chinese = "zh"
     case chineseChina = "zh_Hans_CN"
-    
+
 	case current = "current"
 	case autoUpdating = "currentAutoUpdating"
+    case englishUnitedStatesComputer = "en_US_POSIX"
 
 	/// Return a valid `Locale` instance from current selected locale enum
 	public func toLocale() -> Locale {
